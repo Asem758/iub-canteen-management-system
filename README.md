@@ -69,34 +69,44 @@ With an unwavering focus on precision and optimization, this system empowers can
 
 ## Usage
 
-Setting Up the System
-Login and Authentication:
+### Setting Up the System
 
-Upon accessing the system, users will be prompted to log in using their university credentials (for staff/admin) or as guests (for customers).
-Provide necessary login instructions and credentials if applicable.
-Navigating the Dashboard:
+### 1. Login and Authentication:
 
-Describe the dashboard interface, highlighting key sections such as order management, inventory, menu customization, and analytics.
-Order Processing:
+- Upon accessing the system, users will be prompted to log in using their university credentials (for staff/admin) or as guests (for customers).
+- Provide necessary login instructions and credentials if applicable.
 
-Explain the process of placing, processing, and tracking orders from the user's perspective.
-Administrator Functions
-Inventory Management:
+### 2.Navigating the Dashboard:
 
-Guide administrators on how to manage inventory, including adding new items, updating stock levels, and receiving alerts for low inventory.
-Menu Customization:
+- Describe the dashboard interface, highlighting key sections such as order management, inventory, menu customization, and analytics.
 
-Demonstrate how administrators can customize the menu by adding new items, removing outdated items, and specifying dietary information.
-Analytics and Reports:
+### 3. Order Processing:
 
-Showcase how administrators can access and interpret sales analytics and reports to make informed decisions.
-Customer Functions
-Placing Orders:
+- Explain the process of placing, processing, and tracking orders from the user's perspective.
+- 
+### Administrator Functions
 
-Illustrate how customers can browse the menu, select items, and place orders through the system.
-Tracking Orders:
+### 1. Inventory Management:
 
-Explain how customers can track their orders and receive notifications/alerts regarding order status updates.
+- Guide administrators on how to manage inventory, including adding new items, updating stock levels, and receiving alerts for low inventory.
+
+### 2. Menu Customization:
+
+- Demonstrate how administrators can customize the menu by adding new items, removing outdated items, and specifying dietary information.
+
+### 3. Analytics and Reports:
+
+- Showcase how administrators can access and interpret sales analytics and reports to make informed decisions.
+
+### Customer Functions
+
+### 1. Placing Orders:
+
+- Illustrate how customers can browse the menu, select items, and place orders through the system.
+  
+### 2. Tracking Orders:
+
+- Explain how customers can track their orders and receive notifications/alerts regarding order status updates.
 
 ![admin-dashboard](https://github.com/Asem758/iub-canteen-management-system/assets/79334393/8f51fc05-386f-41d8-9993-c2b52cd228d8)
 ![admin-login-page](https://github.com/Asem758/iub-canteen-management-system/assets/79334393/c4e09f6c-e3b3-4e64-9c6a-807f4bc0a49a)
