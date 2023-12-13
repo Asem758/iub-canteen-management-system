@@ -83,7 +83,7 @@ With an unwavering focus on precision and optimization, this system empowers can
 ### 3. Order Processing:
 
 - Explain the process of placing, processing, and tracking orders from the user's perspective.
-- 
+  
 ### Administrator Functions
 
 ### 1. Inventory Management:
