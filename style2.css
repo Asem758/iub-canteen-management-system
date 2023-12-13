@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+   
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-image: url(images/nav1.jpg);
+   
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+    height: 100%;
+    width: 25%;
+  
+    float: left;
+
+}
+.logo img{
+    width:65px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.nav{
+    width: 75%;
+    height: 100%;
+   
+    float: right;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.nav ul li{
+       float: left;
+       
+}
+.nav ul li a{
+    text-decoration: none;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    color: black;
+   
+}
+.nav ul li a:hover{
+    color: rgb(218, 180, 41);
+}
+
+.articale{
+    width: 100%;
+   height: 100px;
+   background-color: #ebebeb;
+    
+
+
+}
+.heading{
+    width: 100%;
+    height: 100%;
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    
+  }
+  .dot h4{
+    text-align: center;
+    margin-top: 30%;
+  }
+  .dot1 {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+    
+  }
+  .dot1:hover{
+    background-color: rgb(199, 113, 81);
+  }
+  .dot1 h4{
+    text-align: center;
+    margin-top: 30%;
+  }
+
+  .dot2 {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+    
+  }
+  .dot2:hover{
+    background-color: rgb(200, 113, 81);
+  }
+  .dot2 h4{
+    text-align: center;
+    margin-top: 30%;
+  }
+
+
+  .poster{
+    width: 100%;
+    height: 300px;
+    background-image: url(images/img/restrrr.png);
+    position: absolute;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+
+.poster1{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 80px;
+    position: relative;
+    
+}
+.poster1 img{
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.poster2 p{
+    
+    
+   
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+    font-size: 18px;
+}
+
+.poster2 h3{
+    
+    
+   
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+    font-size: 36px;
+}
+
+/* Style the addCart div as a flex container */
+.addCart {
+    display: flex;
+    flex-wrap: wrap; /* Allow the flex items to wrap to the next row */
+    gap: 20px; /* Add some space between the flex items */
+    justify-content: center; /* Center the flex items horizontally */
+    align-items: center; /* Center the flex items vertically */
+    margin-top: 30%;
+  }
+  
+  /* Style the item1 div as a card container */
+  .item1 {
+    width: 300px; /* Set a fixed width for the card */
+    height: 400px; /* Set a fixed height for the card */
+    border: 1px solid #ccc; /* Add a border to the card */
+    border-radius: 10px; /* Add rounded corners to the card */
+    overflow: hidden; /* Clip the content that overflows the card */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a shadow effect to the card */
+    transition: 0.3s; /* Add a transition effect to the card */
+  }
+  
+  /* Style the item1 div when hovering over it */
+  .item1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a deeper shadow effect when hovering over the card */
+  }
+  
+  /* Style the image in the item1 div */
+  .item1 img {
+    width: 100%; /* Set the width of the image to fill the card */
+    height: 50%; /* Set the height of the image to half of the card */
+    object-fit: cover; /* Resize the image to fit the card */
+  }
+  
+  /* Style the paragraph in the item1 div */
+  .item1 p {
+    margin: 10px; /* Add some margin to the paragraph */
+    font-family: Arial, sans-serif; /* Set the font family of the paragraph */
+    text-align: center; /* Center the text in the paragraph */
+  }
+  
+  /* Style the button in the item1 div */
+  .item1 button {
+    width: 80%; /* Set the width of the button to 80% of the card */
+    padding: 10px; /* Add some padding to the button */
+    border: none; /* Remove the border of the button */
+    border-radius: 5px; /* Add rounded corners to the button */
+    background-color: #4CAF50; /* Set the background color of the button */
+    color: white; /* Set the text color of the button */
+    font-family: Arial, sans-serif; /* Set the font family of the button */
+    font-size: 18px; /* Set the font size of the button */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+  }
+  
+  /* Style the button when hovering over it */
+  .item1 button:hover {
+    background-color: #3a8c3a; /* Darken the background color of the button */
+  }
+  
+.item{
+    width: 65%;
+ 
+    
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 12px;
+    row-gap: 12px;
+   
+    
+}
+.item1{
+    width: 250px;
+    height: 300px;
+    border: 1px solid #ebebeb;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.item1 .img{
+    width: 150px;
+    height: 150px;
+    
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.item1 .img img{
+    width: 100%;
+    height: 100%;
+}
+.item1 p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.item1 button{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px 10px;
+}
+
+.cart{
+    width: 35%;
+    
+  
+   
+   
+}
+.cart button{
+    margin-top: 10px;
+    margin-left: 150px;
+    padding: 10px 10px;
+    align-items: center;
+    text-align: center;
+}
+ .cart .cart1{
+    width: 95%;
+    margin-top: 10px;
+    border: 1px solid #ebebeb;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+.cart .cart1 ul{
+    list-style: none;
+}
+.cart .cart1 h2{
+    color: red;
+}
+.cart .cart-item{
+    width: 95%;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+.cart-item-img{
+    width: 50px;
+    height: 50px;
+  
+}
+.cart-item-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+ 
+  
+}
+.cart-item-details p{
+  margin-left: 60px;
+  margin-top: 5px;
+ 
+}
+.cart-item-details button{
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 5px 5px;
+   
+  }
+.footer {
+    /* Set the position of the footer to fixed at the bottom of the page */
+    position: absolute end;
+    bottom: 0;
+    left: 0;
+    /* Set the width and height of the footer */
+    width: 100%;
+    height: 50px;
+    /* Set the background color and text color of the footer */
+    background-color: #333333;
+    color: white;
+    /* Center the text in the footer */
+    text-align: center;
+    /* Vertically align the text in the footer */
+    line-height: 50px;
+    /* Set the font family and size of the footer */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+

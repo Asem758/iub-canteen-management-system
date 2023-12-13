@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conatiner{
+    width: 100%;
+    height: 100vh;
+    box-sizing:border-box 
+    
+
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-image: url(images/menu-bg.jpg);
+
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+    height: 100%;
+    width: 25%;
+  
+    float: left;
+
+}
+.logo img{
+    width:100px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+.articale{
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+}
+.content{
+    width: 20%;
+    height: 500px;
+    border: 1px solid #ebebeb;
+    margin-top: 15px;
+
+}
+.content h2{
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.dash{
+   
+    
+}
+.dash a{
+    text-decoration: none;
+    margin-left: 20px;
+  
+    
+    font-size: 26px;
+}
+.dash i{
+    margin-top: 40px;
+    padding: 10px;
+}
+.res a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 26px;
+    
+    
+}
+.res i{
+    margin-top: 40px;
+    padding: 10px;
+}
+.sidebar{
+    width: 75%;
+    height: 500px;
+   border: 1px solid #ebebeb;
+   margin-left: 20px;
+   margin-top: 15px;
+   
+    
+}
+.dashboard{
+    width: 95%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.media{
+    width: 250px;
+    height: 150px;
+   background-color: #ebebeb;
+   margin-left: 25px;
+    margin-top: 20px;
+}
+.media-icon i{
+   
+    margin-top: 20px;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.media-txt p{
+    margin-left: 25px;
+ 
+    font-size: 30px;
+    margin-top: 40px;
+}
+.media-txt h1{
+    margin-left:170px;
+    margin-top: -40px;
+ 
+    font-size: 30px;
+}
+
+  

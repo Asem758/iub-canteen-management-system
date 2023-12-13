@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conatiner{
+    width: 100%;
+    height: 100vh;
+    box-sizing:border-box 
+    
+
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-image: url(images/nav1.jpg);
+
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+    height: 100%;
+    width: 25%;
+  
+    float: left;
+
+}
+.logo img{
+    width:100px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+/* Style the articale div as a flex container */
+.articale {
+    display: flex;
+    flex-direction: row; /* Arrange the flex items in a row */
+    height: 100vh; /* Set the height of the articale to 100% of the viewport height */
+  }
+  
+  /* Style the content div as a sidebar */
+  .content {
+    width: 250px; /* Set the width of the sidebar */
+    background-color: #a7a3a3; /* Set the background color of the sidebar */
+    overflow-y: auto; /* Add a vertical scrollbar to the sidebar */
+  }
+  
+  /* Style the dash, res, and sidebar divs as list items */
+  .dash, .res, .sidebar {
+    width: 100%; /* Set the width of the list items to fill the sidebar */
+    height: auto; /* Set the height of the list items to auto */
+    border: none; /* Remove the border from the list items */
+    border-radius: 0; /* Remove the rounded corners from the list items */
+    overflow: visible; /* Make the content visible outside the list items */
+    box-shadow: none; /* Remove the shadow effect from the list items */
+    transition: none; /* Remove the transition effect from the list items */
+  }
+  
+  /* Style the anchor elements in the dash and res divs as navigation links */
+  .dash a, .res a {
+    display: block; /* Display the anchor elements as block elements */
+    text-align: left; /* Align the text to the left of the anchor elements */
+    padding: 14px 16px; /* Add some padding to the anchor elements */
+    color: white; /* Set the text color of the anchor elements */
+  }
+  
+  /* Style the active link differently */
+  .dash a.active, .res a.active {
+    background-color: #3786E1; /* Set the background color of the active link */
+  }
+  
+  /* Style the font awesome icons in the dash and res divs */
+  .dash i, .res i {
+    margin-right: 10px; /* Add some margin to the right of the icons */
+    font-size: 20px; /* Set the font size of the icons */
+  }
+  
+  /* Style the span elements in the dash and res divs */
+  .dash span, .res span {
+    font-family: Arial, sans-serif; /* Set the font family of the span elements */
+    font-size: 16px; /* Set the font size of the span elements */
+  }
+  
+  /* Style the sidebar div as a main content area */
+  .sidebar {
+    width: calc(100% - 250px); /* Set the width of the main content area to the remaining space */
+    padding: 20px; /* Add some padding to the main content area */
+  }
+  
+  /* Add some content to the sidebar div */
+  .sidebar::before {
+    content: "Admin pannel"; /* Add some text to the main content area */
+    font-family: Arial, sans-serif; /* Set the font family of the text */
+    font-size: 24px; /* Set the font size of the text */
+    color: #333333; /* Set the text color of the text */
+  }
+  
+/* Style the dashboard div as a grid container */
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Divide the grid into four columns */
+    gap: 20px; /* Add some space between the grid items */
+    justify-content: center; /* Center the grid items horizontally */
+    align-items: center; /* Center the grid items vertically */
+    padding: 20px; /* Add some padding to the grid container */
+  }
+  
+  /* Style the media div as a card container */
+  .media {
+    width: 250px; /* Set a fixed width for the card */
+    height: 150px; /* Set a fixed height for the card */
+    border: 1px solid #ccc; /* Add a border to the card */
+    border-radius: 10px; /* Add rounded corners to the card */
+    overflow: hidden; /* Clip the content that overflows the card */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a shadow effect to the card */
+    transition: 0.3s; /* Add a transition effect to the card */
+  }
+  
+  /* Style the media div when hovering over it */
+  .media:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Add a deeper shadow effect when hovering over the card */
+  }
+  
+  /* Style the media-icon div */
+  .media-icon {
+    width: 80px; /* Set a fixed width for the icon */
+    height: 100%; /* Set the height of the icon to fill the card */
+    background-color: #f0f0f0; /* Set the background color of the icon */
+    display: flex; /* Display the icon as a flex item */
+    justify-content: center; /* Center the icon horizontally */
+    align-items: center; /* Center the icon vertically */
+  }
+  
+  /* Style the font awesome icons */
+  .fa {
+    color: #333333; /* Set the color of the icons */
+    font-size: 40px; /* Set the font size of the icons */
+  }
+  
+  /* Style the media-txt div */
+  .media-txt {
+    padding: 20px; /* Add some padding to the text */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Style the heading in the media-txt div */
+  .media-txt h1 {
+    margin: 10px 0; /* Add some margin to the heading */
+    font-family: Arial, sans-serif; /* Set the font family of the heading */
+    font-size: 24px; /* Set the font size of the heading */
+  }
+  
+  /* Style the paragraph in the media-txt div */
+  .media-txt p {
+    margin: 10px 0; /* Add some margin to the paragraph */
+    font-family: Arial, sans-serif; /* Set the font family of the paragraph */
+    font-size: 16px; /* Set the font size of the paragraph */
+    color: #999999; /* Set the text color of the paragraph */
+  }
+  
+
+  

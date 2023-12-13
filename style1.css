@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+   
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-image: url(images/nav1.jpg);
+   
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+    height: 100%;
+    width: 25%;
+  
+    float: left;
+
+}
+.logo img{
+    width:65px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.nav{
+    width: 75%;
+    height: 100%;
+   
+    float: right;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.nav ul li{
+       float: left;
+       
+}
+.nav ul li a{
+    text-decoration: none;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    color: black;
+   
+}
+.nav ul li a:hover{
+    color: rgb(218, 180, 41);
+}
+
+.articale{
+    width: 100%;
+   height: 100px;
+   background-color: #ebebeb;
+    
+
+
+}
+.heading{
+    width: 100%;
+    height: 100%;
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    
+  }
+  .dot h4{
+    text-align: center;
+    margin-top: 30%;
+  }
+  .dot1 {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+    
+  }
+  .dot1:hover{
+    background-color: rgb(199, 113, 81);
+  }
+  .dot1 h4{
+    text-align: center;
+    margin-top: 30%;
+  }
+
+  .dot2 {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+    
+  }
+  .dot2:hover{
+    background-color: rgb(200, 113, 81);
+  }
+  .dot2 h4{
+    text-align: center;
+    margin-top: 30%;
+  }
+
+  .res{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    
+    
+    
+    
+  }
+  .res1{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    
+  
+  }
+  .res1 .name{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ebebeb;
+    margin-left: 200px;
+    
+  }
+  .res1 .name .nameImg{
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+   
+  }
+  
+  .res1 .name .nameImg img{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+   
+  }
+  .res1 .name .nameTxt{
+    float: right;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 350px;
+    
+  }
+  .but{
+    width: 30%;
+    height: 150px;
+    border: 1px solid #ebebeb;
+    margin-left: 200px;
+    
+    
+  }
+  .but button{
+    padding: 10px 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .footer {
+    /* Set the position of the footer to fixed at the bottom of the page */
+    position: absolute end;
+    bottom: 0;
+    left: 0;
+    /* Set the width and height of the footer */
+    width: 100%;
+    height: 50px;
+    /* Set the background color and text color of the footer */
+    background-color: #333333;
+    color: white;
+    /* Center the text in the footer */
+    text-align: center;
+    /* Vertically align the text in the footer */
+    line-height: 50px;
+    /* Set the font family and size of the footer */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+
+
+ 

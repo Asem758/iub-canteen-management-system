@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg,#2980b9, #8e44ad);
+  height: 100vh;
+  overflow: hidden;
+}
+/* Style the center div as a flex container */
+.center {
+  display: flex;
+  justify-content: center; /* Center the flex item horizontally */
+  align-items: center; /* Center the flex item vertically */
+  height: 100vh; /* Set the height of the container to 100% of the viewport height */
+}
+
+/* Style the form element */
+form {
+  width: 500px; /* Set the width of the form */
+  padding: 40px; /* Add some padding to the form */
+  border: 1px solid #ccc; /* Add a border to the form */
+  border-radius: 10px; /* Add rounded corners to the form */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect to the form */
+}
+
+/* Style the heading element */
+h1 {
+  text-align: center; /* Center the heading text */
+  font-family: Arial, sans-serif; /* Set the font family of the heading */
+  color: #333333; /* Set the text color of the heading */
+  margin-bottom: 20px; /* Add some margin to the bottom of the heading */
+}
+
+/* Style the txt_field div as a flex container */
+.txt_field {
+  display: flex;
+  flex-direction: column; /* Arrange the flex items in a column */
+  position: relative; /* Set the position of the container to relative */
+  margin: 10px 0; /* Add some margin to the top and bottom of the container */
+}
+
+/* Style the input elements */
+input {
+  width: 100%; /* Set the width of the input to fill the container */
+  padding: 15px; /* Add some padding to the input */
+  border: none; /* Remove the border of the input */
+  outline: none; /* Remove the outline of the input */
+  font-family: Arial, sans-serif; /* Set the font family of the input */
+  font-size: 16px; /* Set the font size of the input */
+}
+
+/* Style the span element */
+span {
+  position: absolute; /* Set the position of the span to absolute */
+  left: 0; /* Set the left position of the span to 0 */
+  width: 100%; /* Set the width of the span to fill the container */
+  height: 2px; /* Set the height of the span to 2px */
+  background: linear-gradient(to right, #11998e, #38ef7d); /* Set the background of the span to a linear gradient */
+  transform: scaleX(0); /* Set the scale of the span to 0 */
+  transition: 0.5s; /* Add a transition effect to the span */
+}
+
+/* Style the span element when the input is focused */
+input:focus ~ span {
+  transform: scaleX(1); /* Set the scale of the span to 1 */
+}
+
+/* Style the label element */
+label {
+  position: absolute; /* Set the position of the label to absolute */
+  top: 50%; /* Set the top position of the label to 50% of the container */
+  left: 15px; /* Set the left position of the label to 15px */
+  color: #999999; /* Set the text color of the label */
+  font-family: Arial, sans-serif; /* Set the font family of the label */
+  font-size: 16px; /* Set the font size of the label */
+  transform: translateY(-50%); /* Center the label vertically */
+  pointer-events: none; /* Prevent the label from interfering with the input */
+  transition: 0.5s; /* Add a transition effect to the label */
+}
+
+/* Style the label element when the input is focused or has a value */
+input:focus ~ label,
+input:valid ~ label {
+  top: -12px; /* Move the label to the top of the container */
+  left: 5px; /* Move the label to the left of the container */
+  color: #11998e; /* Change the text color of the label */
+  font-size: 12px; /* Reduce the font size of the label */
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 100%; /* Set the width of the button to fill the container */
+  padding: 15px; /* Add some padding to the button */
+  border: none; /* Remove the border of the button */
+  border-radius: 5px; /* Add rounded corners to the button */
+  background: linear-gradient(to right, #11998e, #38ef7d); /* Set the background of the button to a linear gradient */
+  color: white; /* Set the text color of the button */
+  font-family: Arial, sans-serif; /* Set the font family of the button */
+  font-size: 18px; /* Set the font size of the button */
+  cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+  transition: 0.5s; /* Add a transition effect to the button */
+}
+
+/* Style the submit button when hovering over it */
+input[type=submit]:hover {
+  background: linear-gradient(to right, #38ef7d, #11998e); /* Reverse the direction of the linear gradient */
+}
+
+.signup_link{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+.signup_link a{
+  color: #2691d9;
+  text-decoration: none;
+}
+.signup_link a:hover{
+  text-decoration: underline;
+}

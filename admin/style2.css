@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-image: url(images/nav1.jpg);
+
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+    height: 100%;
+    width: 25%;
+  
+    float: left;
+
+}
+.logo img{
+    width:100px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+.order{
+    width: 70%;
+    height: 300px;
+    background-color: #ebebeb;
+    margin-left: 140px;
+    margin-top: 70px;
+}
+
+  /* Style for the entire table */
+  table {
+    border-collapse: collapse; /* Collapse borders to avoid double border lines */
+    width: 95%; /* Make the table take up the full width */
+    border: 2px solid #000; /* Add a border to the table */
+    margin-bottom: 20px; /* Add some space at the bottom of the table */
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+
+  /* Style for table header cells */
+  th {
+    border: 1px solid #000; /* Add a border to header cells */
+    padding: 10px; /* Add padding to header cells for better readability */
+    background-color: #f0f0f0; /* Add a background color to header cells */
+  }
+
+  /* Style for table data cells */
+  td {
+    border: 1px solid #000; /* Add a border to data cells */
+    padding: 10px; /* Add padding to data cells for better readability */
+  }
+
+  /* Style for alternate rows (zebra-striping) */
+  tr:nth-child(even) {
+    background-color: #f8f8f8; /* Add a background color to even rows for contrast */
+  }
+
