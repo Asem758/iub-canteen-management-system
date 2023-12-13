@@ -1,5 +1,5 @@
-Group:IUB cafe
+Group:IUB canteen management system
 Member 1:Shawgat Alrazi          ID: 1930091
 Member 2:Khademul Islam          ID: 1921717
-Member 3:Ashrafur Rahman Asen    ID: 2021771
+Member 3:Ashrafur Rahman Asem    ID: 2021771
 Member 4:Ashfak Wasif            ID: 1810246
