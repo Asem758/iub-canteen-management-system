@@ -27,6 +27,7 @@ With an unwavering focus on precision and optimization, this system empowers can
 ![Home-page2](https://github.com/Asem758/iub-canteen-management-system/assets/79334393/3f2ec770-db28-4187-93db-0c8bb3abc6c9)
 - Streamlined order processing and tracking.
 - Customizable order statuses for better organization.
+  
 ![admin-view--order-list](https://github.com/Asem758/iub-canteen-management-system/assets/79334393/7cc92d8e-b32c-4fd1-ade7-921de3053589)
 
 
@@ -69,31 +70,31 @@ With an unwavering focus on precision and optimization, this system empowers can
 ## Usage
 
 Setting Up the System
--- **Login and Authentication:**
+Login and Authentication:
 
 Upon accessing the system, users will be prompted to log in using their university credentials (for staff/admin) or as guests (for customers).
 Provide necessary login instructions and credentials if applicable.
 Navigating the Dashboard:
 
 Describe the dashboard interface, highlighting key sections such as order management, inventory, menu customization, and analytics.
-- **Order Processing:**
+Order Processing:
 
 Explain the process of placing, processing, and tracking orders from the user's perspective.
 Administrator Functions
-- **Inventory Management:**
+Inventory Management:
 
 Guide administrators on how to manage inventory, including adding new items, updating stock levels, and receiving alerts for low inventory.
-- **Menu Customization:**
+Menu Customization:
 
 Demonstrate how administrators can customize the menu by adding new items, removing outdated items, and specifying dietary information.
-- **Analytics and Reports:**
+Analytics and Reports:
 
 Showcase how administrators can access and interpret sales analytics and reports to make informed decisions.
 Customer Functions
-- **Placing Orders:**
+Placing Orders:
 
 Illustrate how customers can browse the menu, select items, and place orders through the system.
-- **Tracking Orders:**
+Tracking Orders:
 
 Explain how customers can track their orders and receive notifications/alerts regarding order status updates.
 
