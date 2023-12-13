@@ -69,31 +69,31 @@ With an unwavering focus on precision and optimization, this system empowers can
 ## Usage
 
 Setting Up the System
-Login and Authentication:
+-- **Login and Authentication:**
 
 Upon accessing the system, users will be prompted to log in using their university credentials (for staff/admin) or as guests (for customers).
 Provide necessary login instructions and credentials if applicable.
 Navigating the Dashboard:
 
 Describe the dashboard interface, highlighting key sections such as order management, inventory, menu customization, and analytics.
-Order Processing:
+- **Order Processing:**
 
 Explain the process of placing, processing, and tracking orders from the user's perspective.
 Administrator Functions
-Inventory Management:
+- **Inventory Management:**
 
 Guide administrators on how to manage inventory, including adding new items, updating stock levels, and receiving alerts for low inventory.
-Menu Customization:
+- **Menu Customization:**
 
 Demonstrate how administrators can customize the menu by adding new items, removing outdated items, and specifying dietary information.
-Analytics and Reports:
+- **Analytics and Reports:**
 
 Showcase how administrators can access and interpret sales analytics and reports to make informed decisions.
 Customer Functions
-Placing Orders:
+- **Placing Orders:**
 
 Illustrate how customers can browse the menu, select items, and place orders through the system.
-Tracking Orders:
+- **Tracking Orders:**
 
 Explain how customers can track their orders and receive notifications/alerts regarding order status updates.
 
@@ -133,11 +133,11 @@ This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE
 
 We extend our heartfelt gratitude to the following individuals, organizations, and resources whose contributions, guidance, and support have been instrumental in the success of the IUB Canteen Management System:
 
-[Mahady Hasan, PhD/Associate Professor/Independdent University, Bangladesh]: Grateful for his invaluable insights, crucial support, exceptional ideas, and consistent guidance throughout the project timeline.
+- **Mahady Hasan, PhD/Associate Professor/Independdent University, Bangladesh:** Grateful for his invaluable insights, crucial support, exceptional ideas, and consistent guidance throughout the project timeline.
 
-[Sanzar Adnan Alam/Lecturer/Independent University, Bangladesh]: Recognition for his continuous support and guidance throughout the development process, fostering innovation and excellence.
+- **Sanzar Adnan Alam/Lecturer/Independent University, Bangladesh:** Recognition for his continuous support and guidance throughout the development process, fostering innovation and excellence.
 
-[Sabrina Alam/Lecturer/Independent University, Bangladesh]: Appreciation for her guidance, unwavering support, and continuous inspiration throughout the project.
+- **Sabrina Alam/Lecturer/Independent University, Bangladesh:** Appreciation for her guidance, unwavering support, and continuous inspiration throughout the project.
 
 
 
