@@ -1,12 +1,12 @@
 <?php
-$HOSTNAME='localhost';
-$USERNAME='root';
-$PASSWORD='';
-$DATABASE='code_camp_bd_fos';
+$HOSTNAME = 'localhost';
+$USERNAME = 'root';
+$PASSWORD = '';
+$DATABASE = 'code_camp_bd_fos';
 
-$con=mysqli_connect($HOSTNAME,$USERNAME,$PASSWORD,$DATABASE);
+$con = mysqli_connect($HOSTNAME, $USERNAME, $PASSWORD, $DATABASE);
 
-if(!$con){
+if (!$con) {
     die(mysqli_error($con));
 }
 
